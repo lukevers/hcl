@@ -7,7 +7,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/hashicorp/hcl/json/token"
+	"github.com/lukevers/hcl/json/token"
 )
 
 // eof represents a marker rune for the end of the reader.

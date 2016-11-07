@@ -7,7 +7,7 @@ import (
 
 	"strings"
 
-	"github.com/hashicorp/hcl/hcl/token"
+	"github.com/lukevers/hcl/hcl/token"
 )
 
 var f100 = strings.Repeat("f", 100)

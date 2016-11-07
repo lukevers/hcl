@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hashicorp/hcl/hcl/ast"
-	"github.com/hashicorp/hcl/testhelper"
+	"github.com/lukevers/hcl/hcl/ast"
+	"github.com/lukevers/hcl/testhelper"
 )
 
 func TestDecode_interface(t *testing.T) {

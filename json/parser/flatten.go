@@ -1,6 +1,6 @@
 package parser
 
-import "github.com/hashicorp/hcl/hcl/ast"
+import "github.com/lukevers/hcl/hcl/ast"
 
 // flattenObjects takes an AST node, walks it, and flattens
 func flattenObjects(node ast.Node) {
