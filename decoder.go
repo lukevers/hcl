@@ -207,7 +207,7 @@ func (d *decoder) decodeInterface(name string, node ast.Node, result reflect.Val
 		// If we're at the root or we're directly within a slice, then we
 		// decode objects into map[string]interface{}, otherwise we decode
 		// them into lists.
-		if len(d.stack) == 0 || d.stack[len(d.stack)-1] == reflect.Slice {
+		if len(d.stack) == 0 || d.stack[len(d.stack)-1] == reflect.Map {
 			var temp map[string]interface{}
 			tempVal := reflect.ValueOf(temp)
 			result := reflect.MakeMap(
